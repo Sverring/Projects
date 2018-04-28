@@ -1,0 +1,814 @@
+/*============= header =========================*/
+
+.logo {
+    float: left;
+    display: inline-block;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+
+.title {
+    float: left;
+}
+
+
+.nav-menu li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+.nav-menu {
+    float: right;
+    margin: 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu li a:link {
+    color: black;
+}
+
+.nav-menu li a:visited {
+    color: #b9265d;
+}
+
+.nav-menu li a:hover {
+    color: #09d4c9;
+}
+
+.nav-menu li a:active {
+    color: #099dc9;
+}
+
+
+.pad {
+    padding: 20px 0;
+}
+
+/*======================= first-block ======================*/
+
+.first-block {
+    background-image: url('../img/Treehouse-Home_06.png');
+    width: 100%;
+    height: 530px;
+    /* Background picture is still the same in different scales. */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-block a {
+    /*For the Bootstrap reason, type '!important' in the end. Thats why anchor tag will works.  */
+    color: whitesmoke !important;
+}
+
+.cds {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    /* LINE SPACING*/
+    line-height: 75px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 9%;
+
+}
+
+.proin {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #948a9a;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 1rem;
+    color: whitesmoke;
+    border: 2px solid #7cc576;
+    padding: 15px;
+    background-color: #7cc576;
+    border-radius: 100px;
+    /* set a correct borders*/
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.first-block a:link {
+    color: whitesmoke !important;
+}
+
+.first-block a:hover {
+    color: antiquewhite !important;
+}
+
+.first-block a:active {
+    color: #d5c8ff !important;
+}
+
+/* ======================= Professional Services =================*/
+
+.pro {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+
+.icons {
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.ps-titles {
+    text-align: center;
+    /* I use <span>, thats why */
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.ps-text {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.professional-services {
+    padding-bottom: 100px;
+}
+
+/*======================= just-relax ==========================*/
+
+.background-relax {
+    background-image: url('../img/Symbol.png');
+    width: 100%;
+    height: 615px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-relax2 {
+    background-image: url('../img/Treehouse-Home_19.png');
+    width: 100%;
+    height: 615px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.relax-title {
+    color: whitesmoke;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.sign {
+    color: #7cc576;
+}
+
+.relax-text {
+    font-size: 1.1rem;
+    padding-left: 70px;
+    padding-right: 270px;
+    color: #a8a8a8;
+}
+
+.relax-bullets {
+    font-size: 1.1rem;
+    list-style: none;
+    padding-left: 85px;
+    padding-top: 10px;
+    color: #a8a8a8;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.relax-more {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black !important;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    /* set a correct borders*/
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-left: 70px;
+}
+
+.just-relax a:link {
+    color: black !important;
+    text-decoration: none;
+}
+
+.just-relax a:hover {
+    color: #09d4c9 !important;
+}
+
+.just-relax a:active {
+    color: #099dc9 !important;
+}
+
+/* styling fucking img in bullets places */
+
+li i {
+    padding: 7px;
+    border: 1px solid #cccccc;
+    border-radius: 100px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+/*==================latest-project===========================*/
+
+.latest-project {
+    background-image: url('../img/Treehouse-Home_22.png');
+    background-size: 50%;
+    background-position: 100% 170px;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.devframe {
+    margin-top: 7.5%;
+}
+
+.lp-dev {
+    margin-bottom: 4%;
+}
+
+.lp-text {
+    margin-bottom: 4%;
+}
+
+.devil {
+    margin-left: -7.5%;
+    line-height: 0.25rem;
+    padding-top: 2.35%;
+}
+
+.bullet-text {
+    font-size: 1.5rem;
+}
+
+.point-indent {
+    margin-bottom: 1.5%;
+}
+
+.green-text {
+    color: #7cc576 !important;
+}
+
+.fa-long-arrow-alt-right {
+    position: relative;
+    top: 0.5px;
+}
+
+.latest-project a:link {
+    color: #7cc576 !important;
+    text-decoration: none;
+}
+
+.latest-project a:hover {
+    color: #109976 !important;
+}
+
+.latest-project a:active {
+    color: #4dd5c1 !important;
+}
+
+/*======================= CULTURE =============================*/
+
+.culture {
+    padding-bottom: 12.5%;
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    background-position: 50% 225px;
+    margin-bottom: -50px;
+}
+
+.culture-padding {
+    padding-bottom: 5%;
+}
+
+.culture-img {
+    /*centre the images */
+    display: block;
+    margin: 0 auto;
+    border: 20px solid white;
+}
+
+.culture-head {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.culture-text {
+    text-align: center;
+    color: #948a9a;
+}
+
+/*=============================== CLIENTS ==========================================*/
+
+.awesome {
+    padding-bottom: 7%;
+}
+
+.client-phrase {
+    text-align: center;
+    /*    padding: 0 22.5%;*/
+    font-size: 1.25rem;
+}
+
+.client-founder {
+    text-align: center;
+    margin-top: -1%;
+    font-size: 1rem;
+    color: #7cc576;
+}
+
+
+.client-padding {
+    padding-bottom: 6.5%;
+}
+
+.client-circle1 {
+    display: inline-block;
+    width: 60%;
+    margin: 0 20px 0 auto;
+    float: right;
+}
+
+.client-circle2 {
+    display: inline-block;
+    width: 60%;
+    margin: 0 20px 0 auto;
+    float: left;
+}
+
+.text-right {
+    text-align: center;
+    margin-top: 9%;
+    display: inline-block;
+    height: 100px;
+    float: right;
+}
+
+.text-left {
+    text-align: center;
+    margin-top: 7.5%;
+    display: inline-block;
+    height: 100px;
+}
+
+/*=================== FOOTER-LINE ===============================*/
+
+.footer-line {
+    background: #7cc576;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 4%;
+}
+
+.footer-headline {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.footer-line a {
+    text-align: center;
+    color: whitesmoke !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid whitesmoke;
+    display: block;
+    width: 165px;
+    margin: 0 auto;
+    padding: 8px 0;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.footer-us {
+    font-weight: bold;
+}
+
+.footer-line a:hover {
+    /*make a button-lightening*/
+    /*
+    background-color: rgba(255,255,255,1) !important;
+    color: #109976 !important;
+    box-shadow: 0px 0px 40px rgba(255,255,255,.8);
+    transition: .4s;
+}
+*/
+    color: aqua !important;
+    border-color: aqua !important;
+}
+
+.footer-line a:link {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+/*
+.footer-line a:hover {
+    color: #109976 !important;
+}
+*/
+
+.footer-line a:active {
+    color: #4dd5c1 !important;
+}
+
+.footer-label {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-img {
+    margin-top: 1%;
+}
+
+.footer-img {
+    padding-bottom: 5%;
+}
+
+/*===================================== FOOTER =====================================*/
+
+.footer {
+    background: #222;
+}
+
+.footer-column {
+    color: white;
+}
+
+.footer-title {
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+}
+
+.footer-li-bottom {
+    padding-bottom: 10px;
+}
+
+.footer-padding {
+    padding: 5% 0;
+}
+
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+.footer-icon-margin {
+    padding-left: 0 !important; 
+}
+
+.footer-icon-play {
+    margin-left: 1%;
+    margin-right: 15px;
+}
+
+.footer-ul li {
+    list-style: none;
+}
+
+.footer-pad-10 {
+    /*    margin-left:-20px !important;*/
+}
+
+.footer-bold {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.footer-ago {
+    font-size: 0.85rem;
+}
+
+
+/*                 =========== footer end =============================*/
+
+.footer-end {
+    background: whitesmoke;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.footer-display {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.footer-display li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-end-copyright {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.footer-company {
+    font-size: 0.85rem;
+    display: inline-block;
+    position: relative;
+}
+
+/* ========================= MEDIA ============================================================ */
+
+/* =========== MEDIA 1440 =========================== */
+
+@media (min-width: 1440px) {
+    .tweets-padding {
+        padding-left: 0 !important;
+    }
+    
+    .latest-project {
+        padding-bottom: 7%;
+    }
+    
+}
+
+
+
+/*                                           MEDIA - 1025                                                        */
+
+@media (max-width: 1025px) {
+
+    /*LATEST PTOJECT*/
+    .latest-project-p {
+        line-height: 20px;
+    }
+    .latest-project-icon-1 {
+        padding-top: 20px !important;
+    }
+    .latest-project-icon-2 {
+        padding-top: 0px;
+    }
+    .latest-project-icon-3 {
+        padding-top: 20px;
+    }
+/*   FOOTER */
+    .footer-icon-margin {
+        padding-left: 0px !important;
+    }
+    
+
+}
+
+/*                          MEDIA - 769                                                            */
+
+@media (max-width: 769px) {
+
+    /* CULTURE */
+    .culture {
+        background-image: none;
+    }
+
+    /*CLIENTS*/
+    .client-circle1 {
+        display: inline-block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .text-left {
+        margin-top: 15px;
+    }
+
+    .client-circle2 {
+        display: inline-block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .text-right {
+        margin-top: 20px;
+    }
+
+    .client-margin-row {
+        margin-top: 5%;
+    }    
+    
+    
+    /*= FOOTER-LINE =*/
+    .footer-line-margin {
+        margin-bottom: 25px;
+    }
+
+
+    /*        LATEST PROJECT   */
+    .latest-project {
+        background-image: none;
+    }
+
+    .lp-dev {
+        text-align: center;
+    }
+
+    .lp-text {
+        text-align: center;
+    }
+
+    .devil {
+        margin-top: -5px;
+    }
+
+    .lp-end-text {
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .lp-a-text {
+        text-align: center;
+    }
+
+/*    FOOTER    */
+    .tweets-padding {
+        padding-left: 0 !important;
+    }
+    
+    /*         FOOTER END   */
+    .footer-end-copyright {
+        margin-bottom: 2%;
+    }
+
+    .footer-display {
+        margin-bottom: 2%;
+    }
+}
+
+/*                       MEDIA - 480                                                          */
+
+@media (max-width: 480px) {
+
+    /* HEADER   */
+    .cds {
+        font-size: 3rem;
+    }
+
+    nav-mobile-margin {
+        display: block;
+    }
+
+    .title-center {
+        display: block;
+        margin: 0 auto;
+        width: 140px;
+        margin-bottom: 5px;
+    }
+
+    .margin-treehouse {
+        margin-bottom: 10px;
+    }
+
+    .nav-menu {
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-menu li {
+        display: block;
+        text-align: center;
+        border: 2px solid #eee;
+        background: ;
+        margin-bottom: 2px;
+        padding: 0;
+        border: none;
+
+    }
+
+
+    .nav-menu li a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 100%;
+        transition: 0.4s;
+    }
+
+    .nav-menu li:link {
+        color: black;
+    }
+
+    .nav-menu li:visited {
+        color: #b9265d !important;
+    }
+
+    .nav-menu li a:hover {
+        color: whitesmoke;
+        background-color: #7cc576;
+    }
+
+    .nav-menu li a:active {
+        color: black;
+    }
+    /*================== JUST RELAX  =================*/
+    
+    .relax-title {
+        text-align: center;
+    }
+    
+     .relax-text {
+        text-align: center !important;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    
+    .relax-bullets {
+        padding-left: 25px;
+    }
+    
+    .background-relax2 {
+        height: 100%;
+    }
+    
+    .relax-more {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    
+  /*=================== OUR AWESOME CLIENTS ================*/
+    
+    .text-left {
+        margin-top: 0px;
+    }
+    .text-right {
+        margin-top: 0px;
+        height: 100%;
+    }
+    
+    .client-margin-row {
+        margin-top: 25px;
+    }
+    
+    /*=========================    FOOTER_LINE   ==================================*/
+    
+    .footer-line {
+        height: 100%;
+    }
+    
+    .footer-us {
+        margin-bottom: 20px !important;
+    }
+    
+    .footer-line-margin2 {
+         margin-bottom: 25px;
+    }
+    
+    /*========= FOOTER  =========*/
+    
+    .tweets-padding {
+        padding-left: 0 !important;
+    }
+}
+   
+
+/*============================= MEDIA 376 ===================================*/
+@media (max-width:376px) {
+    
+    padding-left:30px;
+    
+    
+}
+
+/*==================================== MEDIA 321 ===================================*/
+
+@media (max-width:321px) {
+    .lp-img-icon {
+        width: 100%;
+    }
+    
+    .prosto-padding {
+        padding-left: 0 !important;
+    }
+}
