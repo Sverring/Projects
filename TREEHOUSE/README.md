@@ -1,0 +1,19 @@
+# Synopsis
+This project is the practice of creating websites. In this case, a free template was selected; the site was made up from the Photoshop’s template.
+
+# Motivation
+In this project, knowledges of using Bootstrap 4, understanding CSS styling, setting up site sizes for various devices was consolidated.
+
+# Tests
+On any device the site displays correctly, issues are not detected.
+
+# Technologies
+* HTML;
+* CSS, Bootstrap 4, Media queries;
+* Adobe Photoshop.
+
+# Example
+
+<div style='text-align:center'>
+  <img src='https://vk.com/doc466748948_464760906' alt='Treehouse-website'>
+</div>
