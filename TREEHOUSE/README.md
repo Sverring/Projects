@@ -20,4 +20,4 @@ On any device the site displays correctly, issues were not detected.
 
 # Example                                                                       
                                                                           
- ![website](https://github.com/Sverring/Projects/edit/master/TREEHOUSE/img/website.gif)
+ ![website](img/website.gif)
