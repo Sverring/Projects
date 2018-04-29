@@ -1,3 +1,9 @@
+# TREEHOUSE WEBSITE
+
+<div style='text-align:center'>
+  <img src='http://ilyafedoseev.ru/img/template.png' alt='Treehouse-website'>
+</div>
+
 # Synopsis
 This project is the practice of creating websites. In this case, a free template was selected; the site was made up from the Photoshop’s template.
 
