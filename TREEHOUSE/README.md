@@ -1,7 +1,7 @@
 # TREEHOUSE WEBSITE
 
 <div style='text-align:center'>
-  <img src='http://ilyafedoseev.ru/img/template.png' alt='Treehouse-website'>
+  <img src='img/template.png' alt='Treehouse-website'>
 </div>
 
 # Synopsis
@@ -20,4 +20,4 @@ On any device the site displays correctly, issues were not detected.
 
 # Example                                                                       
                                                                           
- ![website](http://ilyafedoseev.ru/img/website.gif)
+ ![website](https://github.com/Sverring/Projects/edit/master/TREEHOUSE/img/website.gif)
