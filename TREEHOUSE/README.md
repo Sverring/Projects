@@ -22,5 +22,10 @@ On any device the site displays correctly, issues were not detected.
 
 <div style='text-align:center width='60px' height='40px'>
   <img src='http://ilyafedoseev.ru/img/website.gif' alt='Treehouse-website'>
-  ![](http://ilyafedoseev.ru/img/website.gif)
 </div>
+                                                                           
+<a href="http://ilyafedoseev.ru/img/website.gif">
+  <img src='http://ilyafedoseev.ru/img/website.gif' alt='Treehouse-website' width='60px' height='40px'>
+</a>                                                                           
+                                                                          
+ ![](http://ilyafedoseev.ru/img/website.gif)
