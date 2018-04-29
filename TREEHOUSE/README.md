@@ -18,14 +18,6 @@ On any device the site displays correctly, issues were not detected.
 * CSS, Bootstrap 4, Media queries;
 * Adobe Photoshop.
 
-# Example
-
-<div style='text-align:center width='60px' height='40px'>
-  <img src='http://ilyafedoseev.ru/img/website.gif' alt='Treehouse-website'>
-</div>
-                                                                           
-<a href="http://ilyafedoseev.ru/img/website.gif">
-  <img src='http://ilyafedoseev.ru/img/website.gif' alt='Treehouse-website' width='60px' height='40px'>
-</a>                                                                           
+# Example                                                                       
                                                                           
- ![](http://ilyafedoseev.ru/img/website.gif)
+ ![website](http://ilyafedoseev.ru/img/website.gif)
