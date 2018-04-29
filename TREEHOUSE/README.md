@@ -21,5 +21,5 @@ On any device the site displays correctly, issues were not detected.
 # Example
 
 <div style='text-align:center'>
-  <img src='http://ilyafedoseev.ru/img/First-look.png' alt='Treehouse-website'>
+  <img src='http://ilyafedoseev.ru/img/website.gif' alt='Treehouse-website'>
 </div>
